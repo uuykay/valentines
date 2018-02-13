@@ -9,10 +9,10 @@
 <body>
 	<?php
 	$base_images = file_get_contents('base_images.svg');
-	echo '<center><div id="rose">'.$base_images.'</div></center>';
+	echo '<center><div id="rose" style="display:none;">'.$base_images.'</div></center>';
 	?>
-
-	<svg id="container" width="100%" viewBox="0 0 1500 1500">
+	<span style="font-family:Apple Chancery; font-size:50px; font-style:italic;">Happy Valentines</span>
+	<svg id="container" viewBox="0 0 1000 1000">
 		<path id="target" fill="#FF1493"/>
 	</svg>
 

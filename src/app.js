@@ -2,11 +2,11 @@ import { styler, tween, easing } from "popmotion";
 
 const shape = styler(document.querySelector("#target"));
 const morph = polymorph.interpolate(["#svg-becky", "#svg-rose"], {
-  precision: 8
+  precision: 6
 });
 
 tween({
-  duration: 1000,
+  duration: 8000,
   ease: easing.easeInOut,
   flip: Infinity
 })
